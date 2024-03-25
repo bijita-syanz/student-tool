@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url(backgraound.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            
+        }
+        .main{
+            background-color: aqua;
+            width: 40%;
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+            border-radius: 10px;
+            
+        }
+        .main h1{
+            text-align: center;
+            font-family: "Kanit"
+        }
+        .b1{
+            display: block;
+            
+        }
+        .b2{
+            text-align: center;
+        }
+        .p-login{
+            text-align: center;
+        }
+        .bx {
+            color: #1E5841;
+        }
+        .bxs {
+            color: #1E5841;
+        }
+        .input-box input{
+            width: 98.5%;
+            height: 50px;
+            background: transparent;
+            border: none;
+            
+        }
+        
+    </style>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="main" id="main">
+        <h1>login</h1>
+        <div class="input-box">
+            <input type="text" placeholder="username" required>
+            <i class='bx bxs-user' id="bx"></i>
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="password" required>
+            <i class='bx bxs-lock-alt' id="bxs"></i>
+        </div>
+        <button><p id="p-login">log in</p></button>
+    </div>
+</body>
+</html>
